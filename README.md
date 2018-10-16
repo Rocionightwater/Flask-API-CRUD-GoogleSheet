@@ -1,6 +1,6 @@
 # README
 
-In order to work with Google Excel Sheet you will have to create certain permissions. You will also need to create the files client_secret.json, Procfile and have a requirements.txt file (pip freeze > requirements.txt). 
+In order to work with Google Sheets you will have to create certain permissions. You will also need to create the files client_secret.json, Procfile and have a requirements.txt file (pip freeze > requirements.txt). 
 
 ### This video explains very well how to get the permissions and how to create these files:
 https://www.youtube.com/watch?v=vISRn5qFrkM
