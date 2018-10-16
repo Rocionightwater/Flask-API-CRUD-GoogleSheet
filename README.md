@@ -21,7 +21,7 @@ The Google Excel Sheet used in this API contains 2 columns composed of <messenge
 
 
 - Input your Chatfuel Bot ID in <BOT_ID>
-- Input your Chatfuel Bot Token in <TOKEN>
+- Input your Chatfuel Bot Token in <TOKEN_ID>
 - Input your Chatfuel Block ID in <BLOCK_ID> (This is the block where the user will be redirected to, in order to receive the value we are looking for in the google sheet)
 
 ## Send email operation

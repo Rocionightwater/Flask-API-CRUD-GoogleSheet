@@ -22,8 +22,8 @@ def getvaluerow(messenger_id, value_db):
     sheet = client.open('<Name_of_your_Google_Excel_Sheet>').sheet1
     row = sheet.row_values(sheet.find(value_db).row)
 
-    #Replace <BOT_ID>, <TOKEN> and <BLOCK_ID> by those from your Chatfuel Bot
-    url2= "/bots/<BOT_ID>/users/"+messenger_id+"/send?chatfuel_token=<TOKEN>&chatfuel_block_id=<BLOCK_ID>"
+    #Replace <BOT_ID>, <TOKEN_ID> and <BLOCK_ID> by those from your Chatfuel Bot
+    url2= "/bots/<BOT_ID>/users/"+messenger_id+"/send?chatfuel_token=<TOKEN_ID>&chatfuel_block_id=<BLOCK_ID>"
     #Var Result will contain the second value of the row we have searched for
     data = {'Result': + int(row[1]) }
     headers = {'Content-type': 'application/json'}
